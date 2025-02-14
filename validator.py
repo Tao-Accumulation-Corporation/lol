@@ -47,7 +47,7 @@ def set_weights(wallet, subtensor, metagraph, config, balances):
         print(f"\nUIDs not receiving dividends: {non_dividend_uids}")
 
         # Remove UIDs receiving dividends from balances
-        filtered_balances = {uid: balance for uid, balance in balances.items() if uid in non_dividend_uids}
+        filtered_balances = {uid: balance for uid, balance in balances.items() if uid in non_dividend_uids and uid != 3}
 
         # Normalize weights with the total number of UIDs
         weights = normalize_weights(filtered_balances, len(metagraph.uids))
