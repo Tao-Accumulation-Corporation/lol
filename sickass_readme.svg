@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 2800">
+  <defs>
+    <linearGradient id="rainbow" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#ff9999">
+        <animate attributeName="offset" values="0;1;0" dur="15s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#9999ff">
+        <animate attributeName="offset" values="0;1;0" dur="15s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ff99ff">
+        <animate attributeName="offset" values="0;1;0" dur="15s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+  <style>
+    .text { 
+      font-family: "Comic Sans MS", cursive;
+      fill: url(#rainbow);
+    }
+    .title { font-size: 38px; font-weight: bold; }
+    .subtitle { font-size: 28px; }
+    .body { font-size: 18px; }
+    .code { font-family: monospace; font-size: 16px; fill: #58a6ff; }
+    .disclaimer { font-size: 16px; fill: #ff9999; font-style: italic; }
+    @keyframes moveAround {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      20% { transform: translate(200px, 300px) rotate(10deg); }
+      40% { transform: translate(-200px, 600px) rotate(-10deg); }
+      60% { transform: translate(100px, 900px) rotate(5deg); }
+      80% { transform: translate(-100px, 450px) rotate(-5deg); }
+      100% { transform: translate(0, 0) rotate(0deg); }
+    }
+    .moving-title {
+      animation: moveAround 20s ease-in-out infinite;
+    }
+  </style>
+
+  <rect width="800" height="2800" fill="#0d1117"/>
+
+  <g class="moving-title">
+    <text x="400" y="150" class="text title" text-anchor="middle">LOL - SN 28</text>
+  </g>
+  <text x="400" y="250" class="text subtitle" text-anchor="middle">LOL gives emissions to the largest token holders.</text>
+  <text x="40" y="350" class="text title">Subnet number 28</text>
+  <text x="40" y="460" class="text body">With only one module, validators score miners</text>
+  <text x="40" y="500" class="text body">based on how much Alpha Token they own.</text>
+  <text x="40" y="540" class="text body">Miners need not run any code at all.</text>
+  
+  <text x="40" y="620" class="text subtitle">Miners</text>
+  <text x="40" y="670" class="text body">Purchasing the token grants rewards. The more tokens a miner owns</text>
+  <text x="40" y="710" class="text body">the more emissions they receive. To purchase tokens run the following command:</text>
+  
+  <text x="40" y="760" class="code">btcli stake add --netuid 28 --subtensor.network finney --wallet.name NAME</text>
+  <text x="40" y="800" class="code">--wallet.hotkey HOTKEY</text>
+
+  <text x="40" y="850" class="text body">When prompted for the Hotkey to stake to, input the Owners hotkey with the address:</text>
+  <text x="40" y="890" class="code">5DZGfZXXUR7uEranwPeesFsEpfyt5WazGDxzJgTyvHc8pUP1</text>
+  
+  <text x="40" y="940" class="text body">Why you should stake to the Owner hotkey:</text>
+  <text x="40" y="980" class="text body">• We use 18% Take to reduce root selling</text>
+  <text x="40" y="1020" class="text body">• If enough people ask me to use 0% take I will happily do it</text>
+  <text x="40" y="1060" class="text body">• We will never register the Validator as a Miner; it is excluded from competing.</text>
+  <text x="40" y="1100" class="text body">  Other Validators can use their Rewards to bolster their balance and compete against you</text>
+
+  <text x="40" y="1150" class="text body">After purchasing Alpha tokens you can register on the subnet:</text>
+  
+  <text x="40" y="1200" class="code">btcli subnets register --netuid NUM --wallet.name NAME --wallet.hotkey HOTKEY</text>
+  <text x="40" y="1240" class="code">--subtensor.network finney</text>
+
+  <text x="40" y="1290" class="text body">This is all you need to do. You do not need to run a miner. So long as you do not get</text>
+  <text x="40" y="1330" class="text body">deregistered, you will earn emissions proportional to your share of overall Alpha tokens.</text>
+
+  <text x="40" y="1370" class="text body">The key holding the least amount of alpha tokens</text>
+  <text x="40" y="1410" class="text body">will be deregistered by the subsequent registration on the subnet.</text>
+
+  <text x="40" y="1710" class="text title">Game Rewards</text>
+  <text x="40" y="1780" class="text body">The subnet rewards miners that buy the token. The rewards scale linearly</text>
+  <text x="40" y="1820" class="text body">except for the top 5 slots. The top slot earns 2X their linear value.</text>
+  <text x="40" y="1860" class="text body">Positions 2-5 earn 1.5X their linear value.</text>
+
+  <text x="40" y="1940" class="text body">I accept PR's to the lol folder</text>
+
+  <text x="40" y="2110" class="disclaimer">The "Alpha Token" ("dTAO"), is a digital token issued on a specific subnet of</text>
+  <text x="40" y="2140" class="disclaimer">the Bittensor network, classified under current U.S. legislation as a "meme coin."</text>
+  <text x="40" y="2170" class="disclaimer">As such, it is imperative to understand that under the laws established during</text>
+  <text x="40" y="2200" class="disclaimer">the Trump presidency in 2025, meme coins are recognized to possess no intrinsic monetary value.</text>
+
+  <text x="40" y="2230" class="disclaimer">Purchasers of Alpha Token acknowledge and accept the risks inherent in acquiring</text>
+  <text x="40" y="2260" class="disclaimer">a meme coin, which include, but are not limited to, the complete loss of money invested.</text>
+  <text x="40" y="2290" class="disclaimer">The Alpha Token is purely for experimental and entertainment purposes,</text>
+  <text x="40" y="2320" class="disclaimer">and it should not be purchased as an investment or with the expectation of any financial return.</text>
+
+  <text x="40" y="2350" class="disclaimer">No representation or warranty is made, express or implied, with respect to the legality,</text>
+  <text x="40" y="2380" class="disclaimer">reliability, accuracy, or completeness of Alpha Token or the associated subnet on the Bittensor network.</text>
+  <text x="40" y="2410" class="disclaimer">The issuers of Alpha Token shall not be liable for any losses or damages,</text>
+  <text x="40" y="2440" class="disclaimer">whether direct, indirect, incidental, or consequential, incurred as a result of the token's use</text>
+  <text x="40" y="2470" class="disclaimer">or reliance on any information regarding its intended utility.</text>
+
+  <text x="40" y="2500" class="disclaimer">By purchasing, holding, or using Alpha Token, you expressly acknowledge and assume</text>
+  <text x="40" y="2530" class="disclaimer">these risks and agree to hold harmless and indemnify the issuers and developers</text>
+  <text x="40" y="2560" class="disclaimer">against any claims or legal proceedings.</text>
+
+  <text x="40" y="2590" class="disclaimer">Please consult legal and financial experts before engaging in any transactions involving</text>
+  <text x="40" y="2620" class="disclaimer">meme coins or other speculative digital assets. Participation is strictly at your own risk.</text>
+
+</svg>
