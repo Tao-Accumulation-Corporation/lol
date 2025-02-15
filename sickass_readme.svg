@@ -40,6 +40,7 @@
   <g class="moving-title">
     <text x="400" y="150" class="text title" text-anchor="middle">LOL - SN 28</text>
   </g>
+  <text x="40" y="100" class="text title">ALERT: stake to your own hotkey for now. Devs are on it.</text>
   <text x="400" y="250" class="text subtitle" text-anchor="middle">LOL gives emissions to the largest token holders.</text>
   <text x="40" y="350" class="text title">Subnet number 28</text>
   <text x="40" y="460" class="text body">With only one module, validators score miners</text>
