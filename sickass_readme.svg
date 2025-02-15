@@ -48,7 +48,6 @@
     <text x="400" y="250" class="text title" text-anchor="middle">LOL - SN 28</text>
   </g>
   <text x="400" y="350" class="text subtitle" text-anchor="middle">LOL gives emissions to the largest token holders.</text>
-  <text x="40" y="400" class="text body">ALERT: stake to your own hotkey. not mine. Fix coming soon.</text>
   <text x="40" y="450" class="text title">Subnet number 28</text>
   <text x="40" y="560" class="text body">With only one module, validators score miners</text>
   <text x="40" y="600" class="text body">based on how much Alpha Token they own.</text>
