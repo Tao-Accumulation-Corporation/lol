@@ -61,10 +61,10 @@ def normalize_weights(balances, total_uids):
     print("\nApplying multipliers")
     for idx, (uid, balance) in enumerate(balance_items):
         if balance > 0:
-            if idx == 0:  # Top staker gets a 2.0x multiplier
-                weights[uid] = balance * 2.0 # whoa momma
-            elif idx < 5:  # Ranks 2-5 get 1.5x multiplier
-                weights[uid] = balance * 1.5 # LFG
+            if idx == 0:  # Top staker gets a 1.5x multiplier
+                weights[uid] = balance * 1.5 # whoa momma
+            elif idx < 5:  # Ranks 2-5 get 1.4x multiplier
+                weights[uid] = balance * 1.4 # LFG
             else:
                 weights[uid] = balance
 
