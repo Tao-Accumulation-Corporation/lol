@@ -14,7 +14,7 @@
   </defs>
   <style>
     .text { 
-      font-family: "Comic Sans MS", cursive;
+      font-family: "Comic Sans MS", cursive; 
       fill: url(#rainbow);
     }
     .title { font-size: 38px; font-weight: bold; }
