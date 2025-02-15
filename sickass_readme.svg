@@ -22,7 +22,7 @@
     .body { font-size: 18px; }
     .code { font-family: monospace; font-size: 16px; fill: #58a6ff; }
     .disclaimer { font-size: 16px; fill: #ff9999; font-style: italic; }
-    .update { font-size: 24px; fill: #ffcc00; }
+    .update { font-size: 24px; fill: url(#rainbow); }
     @keyframes moveAround {
       0% { transform: translate(0, 0) rotate(0deg); }
       20% { transform: translate(200px, 300px) rotate(10deg); }
@@ -39,10 +39,10 @@
   <rect width="800" height="2900" fill="#0d1117"/>
 
   <!-- New Update Section -->
-  <text x="40" y="80" class="update">Update #0.06969</text>
-  <text x="40" y="115" class="body">Bittensor has not added support for checking hotkey balances, only stake assigned to</text>
-  <text x="40" y="140" class="body">someone. To check balance I need coldkey. So only have one hotkey per coldkey.</text>
-  <text x="40" y="165" class="body">To make multiple accounts just make a new coldkey.</text>
+  <text x="40" y="80" class="text update">Update #0.06969</text>
+  <text x="40" y="115" class="text body">Bittensor has not added support for checking hotkey balances, only stake assigned to</text>
+  <text x="40" y="140" class="text body">someone. To check balance I need coldkey. So only have one hotkey per coldkey.</text>
+  <text x="40" y="165" class="text body">To make multiple accounts just make a new coldkey.</text>
 
   <g class="moving-title">
     <text x="400" y="250" class="text title" text-anchor="middle">LOL - SN 28</text>
