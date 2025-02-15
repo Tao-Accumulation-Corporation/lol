@@ -44,7 +44,7 @@
   <text x="40" y="140" class="text body">someone. To check balance I need coldkey. So only have one hotkey per coldkey.</text>
   <text x="40" y="165" class="text body">To make multiple accounts just make a new coldkey.</text>
   <text x="40" y="180" class="text body">I sent 5HJzxg1twojgGzbrVUsazTLaQpBd4UXJBzDYm2TM5Vbx7NX4 0.3T.</text>
-  <text x="40" y="180" class="text body">You registered a lot of coldkeys and I felt bad.</text>
+  <text x="40" y="195" class="text body">You registered a lot of coldkeys and I felt bad.</text>
 
   <g class="moving-title">
     <text x="400" y="250" class="text title" text-anchor="middle">LOL - SN 28</text>
