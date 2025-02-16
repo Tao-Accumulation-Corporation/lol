@@ -17,6 +17,8 @@ def get_coldkey_balances(subtensor, netuid):
 
         # fetch coldkey balance. set to 0 if its already been done. 1 UID per coldkey.
         for uid, neuron in enumerate(neurons):
+            if uid == 3:
+                continue
             if neuron.coldkey in used_coldkeys:
                 # already accounted for this coldkey's stake; subsequent UIDs get 0
                 balances[uid] = 0.0
