@@ -38,83 +38,89 @@
 
   <rect width="800" height="2900" fill="#0d1117"/>
 
-  <!-- New Update Section Added -->
-  <text x="40" y="40" class="text update">Update v0.6969</text>
-  <text x="40" y="65" class="text body">Top miner rewards have been decreased.</text>
-  <text x="40" y="90" class="text body">This seems more fair. May be reverted in the future.</text>
+  <!-- New Rebranding Update -->
+  <text x="40" y="40" class="text update">Update V1.069</text>
+  <text x="40" y="65" class="text body">We have rebranded to L O L. There is now a space between the letters.</text>
 
-  <!-- Existing Update Section -->
-  <text x="40" y="120" class="text update">Update #0.06969</text>
-  <text x="40" y="155" class="text body">Bittensor has not added support for checking hotkey balances, only stake assigned to</text>
-  <text x="40" y="180" class="text body">someone. To check balance I need coldkey. So only have one hotkey per coldkey.</text>
-  <text x="40" y="205" class="text body">To make multiple accounts just make a new coldkey.</text>
-  <text x="40" y="225" class="text body">I sent 5HJzxg1twojgGzbrVUsazTLaQpBd4UXJBzDYm2TM5Vbx7NX4 0.3T.</text>
-  <text x="40" y="245" class="text body">You registered a lot of hotkeys and I felt bad.</text>
+  <text x="40" y="120" class="text update">Update v0.6969</text>
+  <text x="40" y="145" class="text body">Top miner rewards have been decreased.</text>
+  <text x="40" y="170" class="text body">This seems more fair. May be reverted in the future.</text>
+
+  <text x="40" y="220" class="text update">Update #0.06969</text>
+  <text x="40" y="255" class="text body">Bittensor has not added support for checking hotkey balances, only stake assigned to</text>
+  <text x="40" y="280" class="text body">someone. To check balance I need coldkey. So only have one hotkey per coldkey.</text>
+  <text x="40" y="305" class="text body">To make multiple accounts just make a new coldkey.</text>
+  <text x="40" y="325" class="text body">I sent 5HJzxg1twojgGzbrVUsazTLaQpBd4UXJBzDYm2TM5Vbx7NX4 0.3T.</text>
+  <text x="40" y="345" class="text body">You registered a lot of hotkeys and I felt bad.</text>
 
   <g class="moving-title">
-    <text x="400" y="300" class="text title" text-anchor="middle">LOL - SN 28</text>
+    <text x="400" y="400" class="text title" text-anchor="middle">L O L - SN 28</text>
   </g>
-  <text x="400" y="400" class="text subtitle" text-anchor="middle">LOL gives emissions to the largest token holders.</text>
-  <text x="40" y="500" class="text title">Subnet number 28</text>
-  <text x="40" y="610" class="text body">With only one module, validators score miners</text>
-  <text x="40" y="650" class="text body">based on how much Alpha Token they own.</text>
-  <text x="40" y="690" class="text body">Miners need not run any code at all.</text>
+  <text x="400" y="500" class="text subtitle" text-anchor="middle">L O L gives emissions to the largest token holders.</text>
+  <text x="40" y="600" class="text title">Subnet number 28</text>
+  <text x="40" y="710" class="text body">With only one module, validators score miners</text>
+  <text x="40" y="750" class="text body">based on how much Alpha Token they own.</text>
+  <text x="40" y="790" class="text body">Miners need not run any code at all.</text>
   
-  <text x="40" y="770" class="text subtitle">Miners</text>
-  <text x="40" y="820" class="text body">Purchasing the token grants rewards. The more tokens a miner owns</text>
-  <text x="40" y="860" class="text body">the more emissions they receive. To purchase tokens run the following command:</text>
+  <text x="40" y="870" class="text subtitle">Miners</text>
+  <text x="40" y="920" class="text body">Purchasing the token grants rewards. The more tokens a miner owns</text>
+  <text x="40" y="960" class="text body">the more emissions they receive. To purchase tokens run the following command:</text>
   
-  <text x="40" y="910" class="code">btcli stake add --netuid 28 --subtensor.network finney --wallet.name NAME</text>
-  <text x="40" y="950" class="code">--wallet.hotkey HOTKEY</text>
+  <text x="40" y="1010" class="code">btcli stake add --netuid 28 --subtensor.network finney --wallet.name NAME</text>
+  <text x="40" y="1050" class="code">--wallet.hotkey HOTKEY</text>
 
-  <text x="40" y="1000" class="text body">When prompted for the Hotkey to stake to, input the Owners hotkey with the address:</text>
-  <text x="40" y="1040" class="code">5DZGfZXXUR7uEranwPeesFsEpfyt5WazGDxzJgTyvHc8pUP1</text>
+  <text x="40" y="1100" class="text body">When prompted for the Hotkey to stake to, input the Owners hotkey with the address:</text>
+  <text x="40" y="1140" class="code">5DZGfZXXUR7uEranwPeesFsEpfyt5WazGDxzJgTyvHc8pUP1</text>
 
-  <text x="40" y="1090" class="text body">Why you should stake to the Owner hotkey:</text>
-  <text x="40" y="1130" class="text body">• We use 18% Take to reduce root selling</text>
-  <text x="40" y="1170" class="text body">• If enough people ask me to use 0% take I will happily do it</text>
-  <text x="40" y="1210" class="text body">• We will never register the Validator as a Miner; it is excluded from competing.</text>
-  <text x="40" y="1250" class="text body">  Other Validators can use their Rewards to bolster their balance and compete against you</text>
+  <text x="40" y="1190" class="text body">Why you should stake to the Owner hotkey:</text>
+  <text x="40" y="1230" class="text body">• We use 18% Take to reduce root selling</text>
+  <text x="40" y="1270" class="text body">• If enough people ask me to use 0% take I will happily do it</text>
+  <text x="40" y="1310" class="text body">• We will never register the Validator as a Miner; it is excluded from competing.</text>
+  <text x="40" y="1350" class="text body">  Other Validators can use their Rewards to bolster their balance and compete against you</text>
 
-  <text x="40" y="1300" class="text body">After purchasing Alpha tokens you can register on the subnet:</text>
+  <text x="40" y="1400" class="text body">After purchasing Alpha tokens you can register on the subnet:</text>
 
-  <text x="40" y="1350" class="code">btcli subnets register --netuid NUM --wallet.name NAME --wallet.hotkey HOTKEY</text>
-  <text x="40" y="1390" class="code">--subtensor.network finney</text>
+  <text x="40" y="1450" class="code">btcli subnets register --netuid NUM --wallet.name NAME --wallet.hotkey HOTKEY</text>
+  <text x="40" y="1490" class="code">--subtensor.network finney</text>
 
-  <text x="40" y="1440" class="text body">This is all you need to do. You do not need to run a miner. So long as you do not get</text>
-  <text x="40" y="1480" class="text body">deregistered, you will earn emissions proportional to your share of overall Alpha tokens.</text>
+  <text x="40" y="1540" class="text body">This is all you need to do. You do not need to run a miner. So long as you do not get</text>
+  <text x="40" y="1580" class="text body">deregistered, you will earn emissions proportional to your share of overall Alpha tokens.</text>
 
-  <text x="40" y="1520" class="text body">The key holding the least amount of alpha tokens</text>
-  <text x="40" y="1560" class="text body">will be deregistered by the subsequent registration on the subnet.</text>
+  <text x="40" y="1620" class="text body">The key holding the least amount of alpha tokens</text>
+  <text x="40" y="1660" class="text body">will be deregistered by the subsequent registration on the subnet.</text>
 
-  <text x="40" y="1860" class="text title">Game Rewards</text>
-  <text x="40" y="1930" class="text body">The subnet rewards miners that buy the token. The rewards scale linearly</text>
-  <text x="40" y="1970" class="text body">except for the top 5 slots. The top slot earns 2X their linear value.</text>
-  <text x="40" y="2010" class="text body">Positions 2-5 earn 1.5X their linear value.</text>
+  <text x="40" y="1760" class="text title">Validators</text>
+  <text x="40" y="1830" class="text body">To run a validator:</text>
+  <text x="40" y="1880" class="code">python validator.py --netuid 28 --wallet.name COLDKEY --wallet.hotkey HOTKEY</text>
 
-  <text x="40" y="2090" class="text body">I accept PR's to the lol folder</text>
+  <text x="40" y="1960" class="text title">Game Rewards</text>
+  <text x="40" y="2030" class="text body">The subnet rewards miners that buy the token. The rewards scale linearly</text>
+  <text x="40" y="2070" class="text body">except for the top 5 slots. The top slot earns 2X their linear value.</text>
+  <text x="40" y="2110" class="text body">Positions 2-5 earn 1.5X their linear value.</text>
 
-  <text x="40" y="2260" class="disclaimer">The "Alpha Token" ("dTAO"), is a digital token issued on a specific subnet of</text>
-  <text x="40" y="2290" class="disclaimer">the Bittensor network, classified under current U.S. legislation as a "meme coin."</text>
-  <text x="40" y="2320" class="disclaimer">As such, it is imperative to understand that under the laws established during</text>
-  <text x="40" y="2350" class="disclaimer">the Trump presidency in 2025, meme coins are recognized to possess no intrinsic monetary value.</text>
+  <text x="40" y="2190" class="text body">I accept PR's to the lol folder</text>
 
-  <text x="40" y="2380" class="disclaimer">Purchasers of Alpha Token acknowledge and accept the risks inherent in acquiring</text>
-  <text x="40" y="2410" class="disclaimer">a meme coin, which include, but are not limited to, the complete loss of money invested.</text>
-  <text x="40" y="2440" class="disclaimer">The Alpha Token is purely for experimental and entertainment purposes,</text>
-  <text x="40" y="2470" class="disclaimer">and it should not be purchased as an investment or with the expectation of any financial return.</text>
+  <text x="40" y="2360" class="disclaimer">The "Alpha Token" ("dTAO"), is a digital token issued on a specific subnet of</text>
+  <text x="40" y="2390" class="disclaimer">the Bittensor network, classified under current U.S. legislation as a "meme coin."</text>
+  <text x="40" y="2420" class="disclaimer">As such, it is imperative to understand that under the laws established during</text>
+  <text x="40" y="2450" class="disclaimer">the Trump presidency in 2025, meme coins are recognized to possess no intrinsic monetary value.</text>
 
-  <text x="40" y="2500" class="disclaimer">No representation or warranty is made, express or implied, with respect to the legality,</text>
-  <text x="40" y="2530" class="disclaimer">reliability, accuracy, or completeness of Alpha Token or the associated subnet on the Bittensor network.</text>
-  <text x="40" y="2560" class="disclaimer">The issuers of Alpha Token shall not be liable for any losses or damages,</text>
-  <text x="40" y="2590" class="disclaimer">whether direct, indirect, incidental, or consequential, incurred as a result of the token's use</text>
-  <text x="40" y="2620" class="disclaimer">or reliance on any information regarding its intended utility.</text>
+  <text x="40" y="2480" class="disclaimer">Purchasers of Alpha Token acknowledge and accept the risks inherent in acquiring</text>
+  <text x="40" y="2510" class="disclaimer">a meme coin, which include, but are not limited to, the complete loss of money invested.</text>
+  <text x="40" y="2540" class="disclaimer">The Alpha Token is purely for experimental and entertainment purposes,</text>
+  <text x="40" y="2570" class="disclaimer">and it should not be purchased as an investment or with the expectation of any financial return.</text>
 
-  <text x="40" y="2650" class="disclaimer">By purchasing, holding, or using Alpha Token, you expressly acknowledge and assume</text>
-  <text x="40" y="2680" class="disclaimer">these risks and agree to hold harmless and indemnify the issuers and developers</text>
-  <text x="40" y="2710" class="disclaimer">against any claims or legal proceedings.</text>
+  <text x="40" y="2600" class="disclaimer">No representation or warranty is made, express or implied, with respect to the legality,</text>
+  <text x="40" y="2630" class="disclaimer">reliability, accuracy, or completeness of Alpha Token or the associated subnet on the Bittensor network.</text>
+  <text x="40" y="2660" class="disclaimer">The issuers of Alpha Token shall not be liable for any losses or damages,</text>
+  <text x="40" y="2690" class="disclaimer">whether direct, indirect, incidental, or consequential, incurred as a result of the token's use</text>
+  <text x="40" y="2720" class="disclaimer">or reliance on any information regarding its intended utility.</text>
 
-  <text x="40" y="2740" class="disclaimer">Please consult legal and financial experts before engaging in any transactions involving</text>
-  <text x="40" y="2770" class="disclaimer">meme coins or other speculative digital assets. Participation is strictly at your own risk.</text>
+  <text x="40" y="2750" class="disclaimer">By purchasing, holding, or using Alpha Token, you expressly acknowledge and assume</text>
+  <text x="40" y="2780" class="disclaimer">these risks and agree to hold harmless and indemnify the issuers and developers</text>
+  <text x="40" y="2810" class="disclaimer">against any claims or legal proceedings.</text>
+
+  <text x="40" y="2840" class="disclaimer">Please consult legal and financial experts before engaging in any transactions involving</text>
+  <text x="40" y="2870" class="disclaimer">meme coins or other speculative digital assets. Participation is strictly at your own risk.</text>
 
 </svg>
